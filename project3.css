@@ -1,5 +1,5 @@
 
-      .container{
+.container{
         padding-right: 400px;
         text-align: center;
 
@@ -28,7 +28,7 @@
   background-color: white;
   width: 30px;
   height: 40px;
-  position: absolute;
+  position: relative;
   
   
 
@@ -39,5 +39,12 @@ img{
 }
 table, th, td {
   border: 1px solid black;
+  width: 30px;
 
+}
+h2{
+  text-align: center;
+}
+.header{
+  margin-left: 30px;
 }
