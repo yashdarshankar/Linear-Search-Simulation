@@ -49,16 +49,25 @@
           </div>
         </div>
       </nav>
+      <h2 >Linear search Simulation</h2>
+      <div class="header">
+
+        <h4>Linear Search :- </h4>
+        <p> A linear search is the simplest method of searching a data set. Starting at the beginning of the data set, each item of data is examined until a match is made. Once the item is found, the search ends. A way to describe a linear search would be: Find out the length of the data set.
+          below table is a simulation of linear search add a element in array box then enter the number to be found and press check then observe the movement of arrow
+        </p>
+  
+      </div>
 
     <div class="container">
-        <h2 >Linear search Simulation</h2>
         <br>
             <div class="form-group">
                 <label for="num">Enter the number</label>
                 <input type="number" id="num">
                 <button type="button" class="btn btn-primary" onclick="adding()">Add</button>
-                <div id="emailHelp" class="form-text">  Add the number to a List</div>
+                <div id="emailHelp" class="form-text">  Add the number to a List, Max 20 numbers can be added.</div>
             </div>
+            
 
             <br>
             <div  style="text-align: left;">  <b>Array :-</b></div>
@@ -84,13 +93,15 @@
           <br>
           <div id="box" class="box"> <p><img src="upwards arrow.png" alt=""></p></div>
           <br><br><br>
+          <h4 id="output"></h4>
+          <br>
           <label for="num">Enter the number to be find</label>
           <input type="number" id="num3">
           <button type="button" class="btn btn-primary" onclick="checking()">check</button>
-          <button id="clear" class="btn btn-primary" onclick="clearStorage()">Clear</button>
-          
+          <input type="button" class="btn btn-primary" value="Reset" onclick="clearstr()">
+          <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
-        <h3 id="output" style="padding-left: 900px;"></h3>
+        
     <script src="project3.js"></script>      
 
 
