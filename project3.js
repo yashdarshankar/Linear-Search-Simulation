@@ -1,14 +1,13 @@
 arr = []
-//var pos = 280;
-var pos = 0;
+var pos = 280;
 count1 = 0;
 function checking(){ 
   itemToFind = document.getElementById("num3").value;
   //var t = setInterval(checking,500);
   var box = document.getElementById("box");
-  
+  box.style.left = pos + "px";box.style.left = pos + "px";
   pos += ((560/(arr.length))+ (280/arr.length));
-  box.style.left = pos + "px";
+  
   if(arr[count1] == itemToFind){
     document.getElementById("output").innerHTML = 'the Element is at index :-' + (count1);
     alert('the Element is at index :-' + (count1));
